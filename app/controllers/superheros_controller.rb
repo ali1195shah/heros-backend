@@ -31,34 +31,34 @@ class SuperherosController < ApplicationController
     private
 
     def super_params
-            params.permit(:name)
-                # :intelligence,
-                # :strength, 
-                # :speed, 
-                # :durability, 
-                # :power, 
-                # :combat, 
-                # :full_name,
-                # # :alter_ego,
-                # :aliases,
-                # :place_of_birth,
-                # # :first_appearance,
-                # # :publisher,
-                # # :alignment,
-                # # :gender,
-                # :race, 
-                # # :height_feet, 
-                # # :height_meters,
-                # # :weight_lbs,
-                # # :weight_kgs,
-                # :eye_color, 
-                # :hair_color, 
-                # :occupation, 
-                # # :base,
-                # :group_affiliation, 
-                # :relatives,
-                # # :image_url
-        # )
+            params.permit(:name,
+                :intelligence,
+                :strength, 
+                :speed, 
+                :durability, 
+                :power, 
+                :combat, 
+                :full_name,
+                # :alter_ego,
+                :aliases,
+                :place_of_birth,
+                # :first_appearance,
+                # :publisher,
+                # :alignment,
+                # :gender,
+                :race, 
+                # :height_feet, 
+                # :height_meters,
+                # :weight_lbs,
+                # :weight_kgs,
+                :eye_color, 
+                :hair_color, 
+                :occupation, 
+                # :base,
+                :group_affiliation, 
+                :relatives,
+                # :image_url
+        )
     end
     
 end
