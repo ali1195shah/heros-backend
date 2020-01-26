@@ -57,6 +57,6 @@ puts 'Fetching superhero data...'
 end
 
 
-u1 = User.create(name: 'ali', username: '123', password: '123')
+u1 = User.create(name: 'ali', username: 'qwe', password: '123')
 
 puts 'DB seeded!'
