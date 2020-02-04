@@ -13,7 +13,6 @@ class ApplicationController < ActionController::API
     
       def client_has_valid_token?
         !!current_user_id
-       
       end
     
       def current_user_id

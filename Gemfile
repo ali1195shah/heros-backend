@@ -47,3 +47,10 @@ gem "rest-client"
 gem 'active_model_serializers', '~> 0.10.0'
 
 gem 'jwt'
+
+
+gem 'faker'
+
+
+gem "dotenv-rails", "~> 2.7"
+gem 'listen', '>= 3.0.5', '< 3.2'
