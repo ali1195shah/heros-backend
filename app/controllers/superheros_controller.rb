@@ -44,8 +44,8 @@ class SuperherosController < ApplicationController
                 :place_of_birth,
                 # :first_appearance,
                 # :publisher,
-                # :alignment,
-                # :gender,
+                :alignment,
+                :gender,
                 :race, 
                 # :height_feet, 
                 # :height_meters,
@@ -57,7 +57,7 @@ class SuperherosController < ApplicationController
                 # :base,
                 :group_affiliation, 
                 :relatives,
-                # :image_url
+                :image_url
         )
     end
     
